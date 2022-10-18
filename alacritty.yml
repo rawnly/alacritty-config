@@ -1,0 +1,40 @@
+env:
+  TERM: alacritty
+
+shell:
+  # program: /bin/zsh
+  # args:
+  #   - -l
+  #   - -c
+  #   - "zellij attach --index 0 --create"
+  program: /opt/homebrew/bin/tmux
+  args:
+    - new-session
+    - -A
+    - -D
+    - -s
+    - main
+window:
+  padding:
+    x: 12
+    y: 12
+  dynamic_padding: true
+font:
+  normal:
+    family: JetbrainsMono NF
+    style: Regular
+  italic:
+    family: JetbrainsMono NF
+    style: Italic
+  bold:
+    family: JetbrainsMono NF
+    style: Bold
+  size: 15.0
+  offset:
+    x: 0
+    y: 7
+love_config_reload: true
+use_thin_strokes: true
+cursor:
+  style:
+    blinking: On
