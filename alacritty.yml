@@ -7,17 +7,17 @@ shell:
   #   - -l
   #   - -c
   #   - "zellij attach --index 0 --create"
-  program: /opt/homebrew/bin/tmux
-  args:
-    - new-session
-    - -A
-    - -D
-    - -s
-    - main
+  # program: /opt/homebrew/bin/tmux
+  # args:
+  #   - new-session
+  #   - -A
+  #   - -D
+  #   - -s
+  #   - main
 window:
   padding:
     x: 12
-    y: 12
+  #   y: 12
   dynamic_padding: true
 font:
   normal:
@@ -38,3 +38,7 @@ use_thin_strokes: true
 cursor:
   style:
     blinking: On
+import:
+  - ~/.config/alacritty/themes/catppuccin/catppuccin-macchiato.yml
+  # - ~/.config/alacritty/themes/catppuccin/catppuccin-mocha.yml
+  # - ~/.config/alacritty/themes/nightfox_alacritty.yml
