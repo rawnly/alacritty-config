@@ -23,5 +23,3 @@ key_bindings:
   - { key: T, mods: Command, chars: "\x01c" }
   # Kill pane
   - { key: W, mods: Command, chars: "\x01x" }
-  # Rename window
-  - { key: R, mods: Command, chars: "\x01," }
