@@ -13,4 +13,4 @@
 - <kbd>CMD+`number`</kbd> Select `n` window
 - <kbd>ALT + `H/J/K/L` </kbd> Split pane movement
 
-> You can change keybindings in [`keybindings.yaml`](keybindings.yaml)
+> You can change keybindings in [`keybindings.yaml`](keybindings.yml)
