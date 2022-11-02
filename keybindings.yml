@@ -23,3 +23,5 @@ key_bindings:
   - { key: T, mods: Command, chars: "\x01c" }
   # Kill pane
   - { key: W, mods: Command, chars: "\x01x" }
+  # Send caret on ctrl+6, for neovim alternate file.
+  - { key: Key6, mods: Control, chars: "\x1e" }
