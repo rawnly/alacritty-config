@@ -1,6 +1,7 @@
 # Configuration for Alacritty, the GPU enhanced terminal emulator
 import:
   # - ~/.config/alacritty/themes/rose-pine/dist/rose-pine.yml
+  # - ~/.config/alacritty/themes/base-16/black-metal-bathory.yml
   - ~/.config/alacritty/keybindings.yml
   # - ~/.config/alacritty/themes/nightfox/dayfox.yml
   # - ~/.config/alacritty/themes/catppuccin/catppuccin-mocha.yml
@@ -203,26 +204,3 @@ shell:
     - -D
     - -s
     - main
-colors:
-  name: Black Metal Bathory
-  primary:
-    foreground: "#c1c1c1"
-    background: "#000000"
-  bright:
-    black: "#333333"
-    blue: "#999999"
-    cyan: "#444444"
-    green: "#121212"
-    magenta: "#999999"
-    red: "#aaaaaa"
-    white: "#c1c1c1"
-    yellow: "#222222"
-  normal:
-    black: "#000000"
-    red: "#5f8787"
-    green: "#fbcb97"
-    yellow: "#e78a53"
-    blue: "#888888"
-    cyan: "#aaaaaa"
-    magenta: "#999999"
-    white: "#c1c1c1"
