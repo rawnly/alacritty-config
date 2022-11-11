@@ -21,7 +21,15 @@ key_bindings:
   - { key: D, mods: Command|Shift, chars: "\x01\"" }
   # New tab
   - { key: T, mods: Command, chars: "\x01c" }
+  # New Instance
+  - { key: N, mods: Command, action: CreateNewWindow }
   # Kill pane
   - { key: W, mods: Command, chars: "\x01x" }
   # Send caret on ctrl+6, for neovim alternate file.
   - { key: Key6, mods: Control, chars: "\x1e" }
+  - {
+      key: Comma,
+      mods: Command,
+      command:
+        { program: "sh", args: ["nvim", "~/.config/alacritty/alacritty.yml"] },
+    }

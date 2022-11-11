@@ -2,6 +2,8 @@
 import:
   # - ~/.config/alacritty/themes/rose-pine/dist/rose-pine.yml
   - ~/.config/alacritty/keybindings.yml
+  # - ~/.config/alacritty/themes/nightfox/dayfox.yml
+  # - ~/.config/alacritty/themes/catppuccin/catppuccin-mocha.yml
 
 # Any items in the `env` entry below will be added as
 # environment variables. Some entries may override variables
@@ -149,7 +151,8 @@ mouse:
 
 hints:
   enabled:
-    - regex: "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|g\
+    - regex:
+        "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|g\
         it:|ssh:|ftp:)[^\0-\x1f-<>\"\\s{-}\\^⟨⟩`]+"
       hyperlinks: true
       command: xdg-open
@@ -176,7 +179,7 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Block
+  style: Beam
   unfocused_hollow: false
 
 # Live config reload (changes require restart)
@@ -200,40 +203,26 @@ shell:
     - -D
     - -s
     - main
-
 colors:
-  # Default colors
+  name: Black Metal Bathory
   primary:
-    background: '0x1E1D2F'
-    foreground: '0xD9E0EE'
-
-  cursor:
-    text: '0x1E1D2F'
-    cursor: '0xF5E0DC'
-
-  # Normal colors
-  normal:
-    black: '0x6E6C7E'
-    red: '0xF28FAD'
-    green: '0xABE9B3'
-    yellow: '0xFAE3B0'
-    blue: '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan: '0x89DCEB'
-    white: '0xD9E0EE'
-
-  # Bright colors
+    foreground: "#c1c1c1"
+    background: "#000000"
   bright:
-    black: '0x988BA2'
-    red: '0xF28FAD'
-    green: '0xABE9B3'
-    yellow: '0xFAE3B0'
-    blue: '0x96CDFB'
-    magenta: '0xF5C2E7'
-    cyan: '0x89DCEB'
-    white: '0xD9E0EE'
-
-  indexed_colors:
-    - { index: 16, color: '0xF8BD96' }
-    - { index: 17, color: '0xF5E0DC' }
-theme: Catppuccin
+    black: "#333333"
+    blue: "#999999"
+    cyan: "#444444"
+    green: "#121212"
+    magenta: "#999999"
+    red: "#aaaaaa"
+    white: "#c1c1c1"
+    yellow: "#222222"
+  normal:
+    black: "#000000"
+    red: "#5f8787"
+    green: "#fbcb97"
+    yellow: "#e78a53"
+    blue: "#888888"
+    cyan: "#aaaaaa"
+    magenta: "#999999"
+    white: "#c1c1c1"
