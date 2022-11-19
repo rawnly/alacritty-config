@@ -3,7 +3,8 @@ import:
   # - ~/.config/alacritty/themes/rose-pine/dist/rose-pine.yml
   # - ~/.config/alacritty/themes/base-16/black-metal-bathory.yml
   - ~/.config/alacritty/keybindings.yml
-  # - ~/.config/alacritty/themes/nightfox/dayfox.yml
+  # - ~/.config/alacritty/themes/nightfox/duskfox.yml
+  - ~/.config/alacritty/themes/srcery_alacritty.yml
   # - ~/.config/alacritty/themes/catppuccin/catppuccin-mocha.yml
 
 # Any items in the `env` entry below will be added as
@@ -152,7 +153,8 @@ mouse:
 
 hints:
   enabled:
-    - regex: "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|g\
+    - regex:
+        "(ipfs:|ipns:|magnet:|mailto:|gemini:|gopher:|https:|http:|news:|file:|g\
         it:|ssh:|ftp:)[^\0-\x1f-<>\"\\s{-}\\^⟨⟩`]+"
       hyperlinks: true
       command: xdg-open
@@ -203,31 +205,3 @@ shell:
     - -D
     - -s
     - main
-colors:
-  name: Embers (dark)
-  author: Chris Kempson
-  primary:
-    background: "#16130f"
-    foreground: "#a39a90"
-  cursor:
-    text: "#16130f"
-    cursor: "#a39a90"
-  normal:
-    black: "#16130f"
-    red: "#826d57"
-    green: "#57826d"
-    yellow: "#6d8257"
-    blue: "#6d5782"
-    magenta: "#82576d"
-    cyan: "#576d82"
-    white: "#a39a90"
-  bright:
-    black: "#5a5047"
-    red: "#826d57"
-    green: "#57826d"
-    yellow: "#6d8257"
-    blue: "#6d5782"
-    magenta: "#82576d"
-    cyan: "#576d82"
-    white: "#dbd6d1"
-theme: Embers.dark
