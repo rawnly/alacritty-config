@@ -27,9 +27,9 @@ key_bindings:
   - { key: W, mods: Command, chars: "\x01x" }
   # Send caret on ctrl+6, for neovim alternate file.
   - { key: Key6, mods: Control, chars: "\x1e" }
-  - {
-      key: Comma,
-      mods: Command,
-      command:
-        { program: "sh", args: ["nvim", "~/.config/alacritty/alacritty.yml"] },
-    }
+  # - {
+  #     key: Comma,
+  #     mods: Command,
+  #     command:
+  #       { program: "sh", args: ["nvim", "~/.config/alacritty/alacritty.yml"] },
+  #   }
